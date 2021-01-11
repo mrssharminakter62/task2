@@ -22,7 +22,7 @@ section{
 }
 .top-players, .blogs, .courses{
     display: grid;
-    place-items: center;
+    place-items: left;
     grid-gap: 30px;
     margin-top:20px ;
 }
@@ -70,6 +70,7 @@ section{
 @media(max-width:688px){
         .top-players, .courses{
         grid-template-columns: repeat(1,1fr);
+        
      }
      .blog{
          display: block;
