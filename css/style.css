@@ -2,8 +2,38 @@
     margin: 0;
     padding: 0;
 }
+nav{
+    height: 50px;
+    background-color: #60aaeb;   
+}
+nav ul{
+    color: white;
+    font-size: 25px;
+}
+nav ul a{
+    text-decoration: none;
+    
+}
+nav li{
+    list-style: none; 
+    padding: 10px;
+    color: white;
+}
+nav > ul > li{
+      float: left;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: rgb(228, 48, 183);
+    
+}
+nav > ul > li:hover >ul{
+    display: block;
+}
+                /* navbar end */
 body{
-    background-color: royalblue;
+    background-color: #e0dfe2;
     font-family: 'popins',sans-serif;
 }
 main{
